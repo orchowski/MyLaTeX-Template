@@ -1,4 +1,4 @@
-\documentclass{article}
+\documentclass{book}
 
 \usepackage[UTF8]{inputenc}
 \usepackage{polski}
@@ -7,11 +7,11 @@
 \usepackage{fancyhdr}
 \usepackage{graphicx}
 \usepackage{lipsum}
-
+\usepackage{geometry}
+\geometry{margin=1in}
 \pagestyle{fancy}
 \fancyhf{}
 \rhead{\LaTeX jest fajny :)}
-\lhead{Section \leftmark}
 \rfoot{\thepage/\pageref{LastPage}}
 \lfoot{Aleksander Orchowski}
 \cfoot{\LaTeX}
@@ -22,7 +22,7 @@
 \begin{document}
 	\maketitle
 	\newpage
-	\section{Wstęp}
+	\chapter{Wstęp}
 
 	To jest wstęp
 	$$a^2 + b^2 = c^2$$
